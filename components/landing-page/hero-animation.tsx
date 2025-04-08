@@ -79,7 +79,6 @@ export function HeroAnimation() {
       geometry.dispose();
       material.dispose();
       renderer.dispose(); 
-      // Potentially dispose textures if used
     };
   }, [isMobile]); // Re-run effect if isMobile changes
 
